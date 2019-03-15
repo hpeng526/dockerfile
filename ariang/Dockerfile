@@ -2,7 +2,7 @@ FROM nginx:1.15.8-alpine
 
 LABEL maintainer="hpeng526 <hpeng526@gmail.com>"
 
-ENV VERSION     1.0.0
+ENV VERSION     1.0.1
 ENV DOWNLOAD    https://github.com/mayswind/AriaNg/releases/download/${VERSION}/AriaNg-${VERSION}.zip
 
 RUN apk upgrade --update \
